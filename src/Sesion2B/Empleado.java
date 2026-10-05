@@ -31,6 +31,6 @@ public class Empleado {
 		else if(nominaBruta >= 2100)
 			retencion = 15;
 		
-		return nominaBruta * (1-retencion);
+		return nominaBruta * (1-retencion/100);
 	}
 }

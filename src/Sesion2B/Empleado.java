@@ -20,6 +20,7 @@ public class Empleado {
 			salarioBase += 100;
 		
 		salarioBase += horasExtra * 30;
+		System.out.println(salarioBase);
 		return salarioBase;
 	}
 	
@@ -31,6 +32,6 @@ public class Empleado {
 		else if(nominaBruta >= 2100)
 			retencion = 15;
 		
-		return nominaBruta * (1-retencion/100);
+		return nominaBruta * (1 - retencion / 100f);
 	}
 }
